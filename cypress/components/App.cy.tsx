@@ -27,6 +27,12 @@ describe('Task1 Component', () => {
   //   cy.get('.hover-content').should('be.visible');
   // });
 
+   // it('displays refresh button on image hover', () => {
+  //   cy.get('.plus-icon').click();
+  //   cy.wait(2000);
+  //   cy.get('.image-wrapper').first().trigger('mouseover');
+  //   cy.get('.hover-content').should('be.visible');
+  // });
   it('refreshes a single image with a different image', () => {
     cy.get('.plus-container').click();
     cy.wait(1000); 
